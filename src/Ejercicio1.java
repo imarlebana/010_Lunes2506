@@ -12,8 +12,11 @@ public class Ejercicio1 {
 
 
 
+
         try{
-            int suma = Integer.valueOf(num1 ) + Integer.valueOf(num2);
+
+            //Integer suma = Integer.valueOf(num1) + Integer.valueOf(num2);
+            int suma = Integer.parseInt(num1) + Integer.parseInt(num2);
             System.out.println("la suma es: " + suma);
         }catch (Exception e){
             System.out.println("Alguno de los parametros no son correctos: " + e.getMessage());
